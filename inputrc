@@ -1,0 +1,5 @@
+set horizontal-scroll-mode on
+$include /etc/inputrc
+
+"\e[5~": history-search-forward
+"\e[6~": history-search-backward

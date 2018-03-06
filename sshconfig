@@ -1,0 +1,50 @@
+Host *
+  ControlPath ~/.ssh/master/%r@%h:%p
+  ControlMaster auto
+  ControlPersist 1h
+
+Host kara
+  HostName kara.hpc.cam.ac.uk
+Host darwin
+  HostName login-biomed2.hpc.cam.ac.uk
+Host csd3
+  HostName login-e-13.hpc.cam.ac.uk
+Host ilab
+  HostName ilab-gate.vss.cloud.cam.ac.uk
+Host wbic
+  HostName wbic-gate.vss.cloud.private.cam.ac.uk
+
+Host lyra
+  Hostname lyra.home
+Host superserver
+  Hostname superserver.home
+Host determinist
+  HostName determinist.salmond.eu
+Host revisionist
+  User root
+  HostName revisionist.salmond.eu
+
+Host githpc
+  Hostname git.hpc.cam.ac.uk
+  User git
+Host github
+  Hostname github.com
+  User git
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+Host gist
+  Hostname gist.github.com
+  User git
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+
+Host archer
+  Hostname login.archer.ac.uk
+
+Host openshite
+  Hostname openshite.salmond.eu
+
+Host xhpl1
+  Hostname 172.24.44.32
+Host xhpl2
+  Hostname 172.24.44.34
