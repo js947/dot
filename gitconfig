@@ -1,0 +1,19 @@
+[user]
+	name = Jeffrey Salmond
+	email = js947@cam.ac.uk
+[core]
+	pager = less -r
+[diff]
+	tool = vimdiff
+[color]
+	ui = true
+[alias]
+	l = log --branches --all --graph --color --pretty=format:\"%C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset)\"
+	s = status -sb
+	b = branch --all
+	d = branch -d
+	D = branch -D
+	f = fetch --prune
+  m = merge --no-ff
+[push]
+	default = simple
