@@ -40,11 +40,3 @@ Host gist
 
 Host archer
   Hostname login.archer.ac.uk
-
-Host openshite
-  Hostname openshite.salmond.eu
-
-Host xhpl1
-  Hostname 172.24.44.32
-Host xhpl2
-  Hostname 172.24.44.34
