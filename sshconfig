@@ -40,3 +40,6 @@ Host gist
 
 Host archer
   Hostname login.archer.ac.uk
+
+Host abcd
+  Hostname 128.232.224.145
