@@ -19,7 +19,7 @@ PROMPT_COMMAND='printf "\033]0;%s:%s\007" "${HOSTNAME%%.*}" "${PWD#$HOME}"'
 HISTSIZE=10000000
 HISTFILESIZE=100000000
 #HISTCONTROL=ignoreboth
-HISTIGNORE='ls:cd:bg:fg:history'
+HISTIGNORE='ls:ll:cd:bg:fg:history'
 HISTTIMEFORMAT='%F %T '
 
 shopt -s histappend histreedit histverify cmdhist
