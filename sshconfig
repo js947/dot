@@ -2,13 +2,12 @@ Host *
   ControlPath ~/.ssh/master/%r@%h:%p
   ControlMaster auto
   ControlPersist 1h
+  ServerAliveInterval 60
 
+Host hpc
+  HostName login-e-13.hpc.cam.ac.uk
 Host kara
   HostName kara.hpc.cam.ac.uk
-Host darwin
-  HostName login-biomed2.hpc.cam.ac.uk
-Host csd3
-  HostName login-e-13.hpc.cam.ac.uk
 Host ilab
   HostName ilab-gate.vss.cloud.cam.ac.uk
 Host wbic
