@@ -12,7 +12,7 @@ alias grep="grep --color"
 alias less="less -R"
 export LESS=-j5
 
-PS1='\[\e[0;31m\]\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\]$(__git_ps1) \$ '
+PS1='\[\e[0;31m\]\h\[\e[m\] \[\e[0;32m\]\w\[\e[m\] \$ '
 #PROMPT_COMMAND='history -a'
 PROMPT_COMMAND='printf "\033]0;%s:%s\007" "${HOSTNAME%%.*}" "${PWD#$HOME}"'
 
