@@ -49,12 +49,20 @@ nnoremap <C-h> <C-w><C-h>
 nnoremap <C-j> <C-w><C-j>
 nnoremap <C-k> <C-w><C-k>
 nnoremap <C-l> <C-w><C-l>
+nnoremap <C-w><C-t> :terminal ++curwin<cr>
+tnoremap <C-h> <C-w><C-h>
+tnoremap <C-j> <C-w><C-j>
+tnoremap <C-k> <C-w><C-k>
+tnoremap <C-l> <C-w><C-l>
 nnoremap <C-n> :tabp<cr>
 nnoremap <C-m> :tabn<cr>
+tnoremap <C-n> :tabp<cr>
+tnoremap <C-m> :tabn<cr>
 nnoremap <A-n> :tabm -1<cr>
 nnoremap <A-m> :tabm +1<cr>
 inoremap § <esc>
 vnoremap § <esc>
+tnoremap § <C-w>n
 
 map <F9> :set invnumber <cr>
 
