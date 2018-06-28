@@ -6,6 +6,8 @@ Host *
 
 Host hpc
   HostName login-e-13.hpc.cam.ac.uk
+Host hpc-gpu
+  HostName login-e-6.hpc.cam.ac.uk
 Host kara
   HostName kara.hpc.cam.ac.uk
 Host ilab
