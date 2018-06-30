@@ -7,3 +7,6 @@
 [submodule "vim/pack/js947/start/vim-repeat"]
 	path = vim/pack/js947/start/vim-repeat
 	url = github:tpope/vim-repeat
+[submodule "vim/pack/js947/start/vim-autoread"]
+	path = vim/pack/js947/start/vim-autoread
+	url = github:djoshea/vim-autoread
