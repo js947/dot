@@ -10,7 +10,7 @@
 [alias]
 	l = log --branches --all --graph --color --pretty=format:\"%C(yellow)%h%C(reset) %s%C(bold red)%d%C(reset)\"
 	s = status -sb
-	b = branch --all
+	b = branch --all -v
 	d = branch -d
 	D = branch -D
 	f = fetch --prune
