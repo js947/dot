@@ -4,3 +4,6 @@
 [submodule "vim/pack/js947/start/vim-surround"]
 	path = vim/pack/js947/start/vim-surround
 	url = github:tpope/vim-surround
+[submodule "vim/pack/js947/start/vim-repeat"]
+	path = vim/pack/js947/start/vim-repeat
+	url = github:tpope/vim-repeat
