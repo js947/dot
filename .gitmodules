@@ -1,3 +1,6 @@
 [submodule "vim/pack/js947/start/vim-gitgutter"]
 	path = vim/pack/js947/start/vim-gitgutter
 	url = github:airblade/vim-gitgutter
+[submodule "vim/pack/js947/start/vim-surround"]
+	path = vim/pack/js947/start/vim-surround
+	url = github:tpope/vim-surround
