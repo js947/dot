@@ -87,5 +87,14 @@ endif
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
+augroup filetype_tsv
 au BufReadPost,BufNewFile *.tsv setlocal noexpandtab shiftwidth=20 softtabstop=20 tabstop=20
-au BufReadPost,BufNewFile *.gnu nmap K :!gnuplot %<cr>
+augroup END
+
+augroup filetype_exec
+au FileType sh      nnoremap K :w !/bin/bash<cr>
+au FileType python  nnoremap K :w !/usr/bin/env python<cr>
+au FileType julia   nnoremap K :w !/usr/bin/env julia<cr>
+au Filetype perl    noremap  K :w !/usr/bin/env perl<cr>
+au Filetype gnuplot nnoremap K :!gnuplot %<cr>
+augroup END
