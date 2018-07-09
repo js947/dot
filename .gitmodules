@@ -10,3 +10,6 @@
 [submodule "vim/pack/js947/start/vim-autoread"]
 	path = vim/pack/js947/start/vim-autoread
 	url = github:djoshea/vim-autoread
+[submodule "vim/pack/js947/start/julia"]
+	path = vim/pack/js947/start/julia
+	url = github:JuliaEditorSupport/julia-vim
