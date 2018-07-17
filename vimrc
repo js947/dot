@@ -92,9 +92,11 @@ au BufReadPost,BufNewFile *.tsv setlocal noexpandtab shiftwidth=20 softtabstop=2
 augroup END
 
 augroup filetype_exec
-au FileType sh      nnoremap K :w !/bin/bash<cr>
-au FileType python  nnoremap K :w !/usr/bin/env python<cr>
-au FileType julia   nnoremap K :w !/usr/bin/env julia<cr>
-au Filetype perl    noremap  K :w !/usr/bin/env perl<cr>
+au FileType sh      nnoremap K :w !bash<cr>
+au FileType sh      nnoremap L :.w !bash<cr>
+au FileType sh      vnoremap L :w !bash<cr>
+au FileType python  nnoremap K :w !python<cr>
+au FileType julia   nnoremap K :w !julia<cr>
+au Filetype perl    nnoremap K :w !perl<cr>
 au Filetype gnuplot nnoremap K :!gnuplot %<cr>
 augroup END
