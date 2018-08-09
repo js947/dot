@@ -15,6 +15,12 @@ Host ilab
 Host wbic
   HostName wbic-gate.vss.cloud.private.cam.ac.uk
 
+Host archer
+  Hostname login.archer.ac.uk
+Host dial
+  User dc-salm1
+  Hostname dial.dirac.ac.uk
+
 Host lyra
   Hostname lyra.home
 Host superserver
@@ -38,9 +44,3 @@ Host gist
   User git
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
-
-Host archer
-  Hostname login.archer.ac.uk
-
-Host abcd
-  Hostname 128.232.224.145
