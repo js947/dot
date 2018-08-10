@@ -44,3 +44,9 @@ Host gist
   User git
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
+
+Host sonnets
+  ProxyJump kara
+  User ubuntu
+  Hostname 128.232.226.39
+
