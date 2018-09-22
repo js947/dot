@@ -20,6 +20,12 @@ Host archer
 Host dial
   User dc-salm1
   Hostname dial.dirac.ac.uk
+Host tesseract
+  User dc-salm1
+  Hostname tesseract.dirac.ac.uk
+Host cosma
+  User dc-salm1
+  Hostname login6.cosma.dur.ac.uk
 
 Host lyra
   Hostname lyra.home
