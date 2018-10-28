@@ -1,4 +1,4 @@
-if [ -f /etc/bashrc ] 
+if [ -f /etc/bashrc ]
 then
   source /etc/bashrc
 fi
@@ -17,15 +17,12 @@ PROMPT_COMMAND='history -a'
 
 HISTSIZE=10000000
 HISTFILESIZE=100000000
-#HISTCONTROL=ignoreboth
 HISTIGNORE='ls:ll:cd:bg:fg:history'
 HISTTIMEFORMAT='%F %T '
 
 shopt -s histappend histreedit histverify cmdhist
 shopt -s autocd cdable_vars cdspell dirspell
 shopt -s checkhash no_empty_cmd_completion
-
-#stty -ixon
 
 export PYTHONDONTWRITEBYTECODE=True
 export MAKEFLAGS="-j --output-sync=recurse"
