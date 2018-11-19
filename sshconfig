@@ -15,6 +15,16 @@ Host ilab
 Host wbic
   HostName wbic-gate.vss.cloud.private.cam.ac.uk
 
+Host ops-bast
+    Hostname ops-bast.hpc.cam.ac.uk
+    IdentityFile ~/.ssh/id_rsa.old
+
+Host gw0?
+    Hostname %h.mgt.cluster
+    IdentityFile ~/.ssh/id_rsa.old
+    proxyjump ops-bast
+    #ProxyCommand ssh -W %h:%p ops-bast
+
 Host archer
   Hostname login.archer.ac.uk
 Host dial
