@@ -4,9 +4,9 @@ Host *
   ControlPersist 1h
   ServerAliveInterval 60
 
-Host hpc
+Host cumulus
   HostName login-e-13.hpc.cam.ac.uk
-Host hpc-gpu
+Host wilkes
   HostName login-e-6.hpc.cam.ac.uk
 Host kara
   HostName kara.hpc.cam.ac.uk
@@ -30,6 +30,14 @@ Host archer
 Host dial
   User dc-salm1
   Hostname dial.dirac.ac.uk
+Host tesseract
+  User dc-salm1
+  Hostname tesseract.dirac.ac.uk
+Host cosma
+  User dc-salm1
+  Hostname login7.cosma.dur.ac.uk
+Host cirrus
+  Hostname login.cirrus.ac.uk
 
 Host lyra
   Hostname lyra.home
