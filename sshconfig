@@ -68,3 +68,10 @@ Host sonnets
   User ubuntu
   Hostname 128.232.226.39
 
+Host k8
+  Hostname k8.js947.net
+  ForwardAgent yes
+  IdentityFile ~/.ssh/id_openstack
+  User core
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
