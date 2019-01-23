@@ -29,7 +29,7 @@ Host archer
   Hostname login.archer.ac.uk
 Host dial
   User dc-salm1
-  Hostname dial.dirac.ac.uk
+  Hostname dirac02.rcs.le.ac.uk
 Host tesseract
   User dc-salm1
   Hostname tesseract.dirac.ac.uk
