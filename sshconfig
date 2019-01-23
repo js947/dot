@@ -5,7 +5,7 @@ Host *
   ServerAliveInterval 60
 
 Host cumulus
-  HostName login-e-13.hpc.cam.ac.uk
+  HostName login-e-15.hpc.cam.ac.uk
 Host wilkes
   HostName login-e-6.hpc.cam.ac.uk
 Host kara
