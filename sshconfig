@@ -38,6 +38,9 @@ Host cosma
   Hostname login7.cosma.dur.ac.uk
 Host cirrus
   Hostname login.cirrus.ac.uk
+Host shen
+  User salmond
+  Hostname shen.astro.keele.ac.uk
 
 Host lyra
   Hostname lyra.home
