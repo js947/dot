@@ -41,6 +41,9 @@ Host cirrus
 Host shen
   User salmond
   Hostname shen.astro.keele.ac.uk
+Host catalyst
+  User dc-salm1
+  Hostname arm-login01.rcs.le.ac.uk
 
 Host lyra
   Hostname lyra.home
