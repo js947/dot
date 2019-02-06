@@ -87,8 +87,7 @@ Host k8
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
 
-Host james
-  Hostname 172.24.44.179
-  ForwardAgent yes
-  IdentityFile ~/.ssh/id_openstack
-  User core
+Host cpu-?-*
+  ProxyJump cumulus
+Host gpu-?-*
+  ProxyJump cumulus
