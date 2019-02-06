@@ -1,15 +1,15 @@
 [submodule "vim/pack/js947/start/vim-gitgutter"]
 	path = vim/pack/js947/start/vim-gitgutter
-	url = github:airblade/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
 [submodule "vim/pack/js947/start/vim-surround"]
 	path = vim/pack/js947/start/vim-surround
-	url = github:tpope/vim-surround
+	url = https://github.com/tpope/vim-surround
 [submodule "vim/pack/js947/start/vim-repeat"]
 	path = vim/pack/js947/start/vim-repeat
-	url = github:tpope/vim-repeat
+	url = https://github.com/tpope/vim-repeat
 [submodule "vim/pack/js947/start/vim-autoread"]
 	path = vim/pack/js947/start/vim-autoread
-	url = github:djoshea/vim-autoread
+	url = https://github.com/djoshea/vim-autoread
 [submodule "vim/pack/js947/start/julia"]
 	path = vim/pack/js947/start/julia
-	url = github:JuliaEditorSupport/julia-vim
+	url = https://github.com/JuliaEditorSupport/julia-vim
