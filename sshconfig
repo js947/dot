@@ -5,55 +5,51 @@ Host *
   ServerAliveInterval 60
 
 Host cumulus
+  ForwardAgent yes
   HostName login-e-15.hpc.cam.ac.uk
-Host wilkes
-  HostName login-e-6.hpc.cam.ac.uk
 Host kara
+  ForwardAgent yes
   HostName kara.hpc.cam.ac.uk
 Host ilab
   HostName ilab-gate.vss.cloud.cam.ac.uk
 Host wbic
+  ForwardAgent yes
   HostName wbic-gate.vss.cloud.private.cam.ac.uk
 
 Host ops-bast
     Hostname ops-bast.hpc.cam.ac.uk
-    IdentityFile ~/.ssh/id_rsa.old
-
+    IdentityFile ~/.ssh/id_clusterops
 Host gw0?
     Hostname %h.mgt.cluster
-    IdentityFile ~/.ssh/id_rsa.old
+    IdentityFile ~/.ssh/id_clusterops
     proxyjump ops-bast
-    #ProxyCommand ssh -W %h:%p ops-bast
 
 Host archer
+  ForwardAgent yes
   Hostname login.archer.ac.uk
 Host dial
+  ForwardAgent yes
   User dc-salm1
   Hostname dirac02.rcs.le.ac.uk
 Host tesseract
+  ForwardAgent yes
   User dc-salm1
   Hostname tesseract.dirac.ac.uk
 Host cosma
+  ForwardAgent yes
   User dc-salm1
   Hostname login7.cosma.dur.ac.uk
 Host cirrus
+  ForwardAgent yes
   Hostname login.cirrus.ac.uk
 Host shen
+  ForwardAgent yes
   User salmond
   Hostname shen.astro.keele.ac.uk
 Host catalyst
+  ForwardAgent yes
   User dc-salm1
   Hostname arm-login01.rcs.le.ac.uk
-
-Host lyra
-  Hostname lyra.home
-Host superserver
-  Hostname superserver.home
-Host determinist
-  HostName determinist.salmond.eu
-Host revisionist
-  User root
-  HostName revisionist.salmond.eu
 
 Host githpc
   Hostname git.hpc.cam.ac.uk
@@ -71,19 +67,6 @@ Host gist
 Host bitbucket
   Hostname bitbucket.org
   User git
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
-
-Host sonnets
-  ProxyJump kara
-  User ubuntu
-  Hostname 128.232.226.39
-
-Host k8
-  Hostname k8.js947.net
-  ForwardAgent yes
-  IdentityFile ~/.ssh/id_openstack
-  User core
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
 
