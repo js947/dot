@@ -10,4 +10,4 @@ do
 done
 
 $LN $DOT/sshconfig $HOME/.ssh/config
-
+chmod 600 $DOT/sshconfig
