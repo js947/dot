@@ -5,6 +5,7 @@ Host *
   ServerAliveInterval 60
 
 Host cumulus
+  ForwardX11 yes
   ForwardAgent yes
   HostName login-e-15.hpc.cam.ac.uk
 Host kara
@@ -13,6 +14,7 @@ Host kara
 Host ilab
   HostName ilab-gate.vss.cloud.cam.ac.uk
 Host wbic
+  ForwardX11 yes
   ForwardAgent yes
   HostName wbic-gate.vss.cloud.private.cam.ac.uk
 
