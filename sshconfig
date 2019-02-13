@@ -52,6 +52,9 @@ Host catalyst
   ForwardAgent yes
   User dc-salm1
   Hostname arm-login01.rcs.le.ac.uk
+Host tacc
+  ForwardAgent yes
+  Hostname stampede2.tacc.utexas.edu
 
 Host githpc
   Hostname git.hpc.cam.ac.uk
