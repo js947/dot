@@ -52,7 +52,10 @@ Host catalyst
   ForwardAgent yes
   User dc-salm1
   Hostname arm-login01.rcs.le.ac.uk
-Host tacc
+Host lonestar
+  ForwardAgent yes
+  Hostname ls5.tacc.utexas.edu
+Host stampede
   ForwardAgent yes
   Hostname stampede2.tacc.utexas.edu
 
