@@ -7,10 +7,13 @@ Host *
 Host cumulus
   ForwardX11 yes
   ForwardAgent yes
+  LocalForward 8889 localhost:8889
   HostName login-e-15.hpc.cam.ac.uk
 Host kara
   ForwardAgent yes
   HostName kara.hpc.cam.ac.uk
+  LocalForward 8000 localhost:8000
+  LocalForward 8080 localhost:8080
 Host ilab
   HostName ilab-gate.vss.cloud.cam.ac.uk
 Host wbic

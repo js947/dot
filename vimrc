@@ -14,6 +14,7 @@ set wildmenu
 set wildignore=*.o,*~,*.pyc,*.aux
 set wildmode=longest,list
 set magic
+set modeline
 
 set showcmd
 set showmatch
@@ -43,6 +44,8 @@ set laststatus=2
 
 set undodir=$HOME/.vim-undo
 set undofile
+
+set scrolloff=999
 
 nnoremap <space> :
 nnoremap <C-h> <C-w><C-h>
