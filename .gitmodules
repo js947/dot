@@ -13,3 +13,6 @@
 [submodule "vim/pack/js947/start/julia"]
 	path = vim/pack/js947/start/julia
 	url = https://github.com/JuliaEditorSupport/julia-vim
+[submodule "vim/pack/js947/start/ledger"]
+	path = vim/pack/js947/start/ledger
+	url = https://github.com/ledger/vim-ledger
