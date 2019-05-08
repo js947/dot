@@ -61,6 +61,13 @@ Host lonestar
 Host stampede
   ForwardAgent yes
   Hostname stampede2.tacc.utexas.edu
+Host zenith-gw
+  Hostname 143.166.198.151
+  user js947.cambridge
+Host zenith
+  Hostname zenith
+  proxyjump zenith-gw
+  user js947.cambridge
 
 Host githpc
   Hostname git.hpc.cam.ac.uk
