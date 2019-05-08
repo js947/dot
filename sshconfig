@@ -77,6 +77,9 @@ Host github
   User git
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
+Host hpc-gitlab
+  Hostname github.com
+  User git
 Host gist
   Hostname gist.github.com
   User git
