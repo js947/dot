@@ -48,7 +48,6 @@ Host cirrus
   ForwardAgent yes
   Hostname login.cirrus.ac.uk
 Host shen
-  ForwardAgent yes
   User salmond
   Hostname shen.astro.keele.ac.uk
 Host catalyst
@@ -65,6 +64,7 @@ Host zenith-gw
   Hostname 143.166.198.151
   user js947.cambridge
 Host zenith
+  ForwardAgent yes
   Hostname zenith
   proxyjump zenith-gw
   user js947.cambridge
@@ -78,7 +78,7 @@ Host github
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
 Host hpc-gitlab
-  Hostname github.com
+  Hostname gitlab.hpc.cam.ac.uk
   User git
 Host gist
   Hostname gist.github.com
