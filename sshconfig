@@ -69,6 +69,17 @@ Host zenith
   proxyjump zenith-gw
   user js947.cambridge
 
+Host isembard-*
+  user ri-jsalmond
+Host isembard-gw
+  Hostname isambard.gw4.ac.uk
+Host isembard-1
+  Hostname login-02
+  ProxyJump isembard-gw
+Host isembard-2
+  Hostname xcil01
+  ProxyJump isembard-gw
+
 Host githpc
   Hostname git.hpc.cam.ac.uk
   User git
