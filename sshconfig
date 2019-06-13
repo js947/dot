@@ -88,6 +88,9 @@ Host github
   User git
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
+Host gitlab
+  Hostname gitlab.developers.cam.ac.uk
+  User git
 Host hpc-gitlab
   Hostname gitlab.hpc.cam.ac.uk
   User git
