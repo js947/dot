@@ -1,5 +1,5 @@
 filetype plugin indent on
-colorscheme monokai
+"colorscheme monokai
 syntax on
 
 set autoread
