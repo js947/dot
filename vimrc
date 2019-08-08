@@ -48,14 +48,14 @@ set undofile
 set scrolloff=999
 
 nnoremap <space> :
-nnoremap <C-h> <C-w><C-h>
-nnoremap <C-j> <C-w><C-j>
-nnoremap <C-k> <C-w><C-k>
-nnoremap <C-l> <C-w><C-l>
-nnoremap <C-n> :tabp<cr>
-nnoremap <C-m> :tabn<cr>
-nnoremap <A-n> :tabm -1<cr>
-nnoremap <A-m> :tabm +1<cr>
+"nnoremap <C-h> <C-w><C-h>
+"nnoremap <C-j> <C-w><C-j>
+"nnoremap <C-k> <C-w><C-k>
+"nnoremap <C-l> <C-w><C-l>
+"nnoremap <C-n> :tabp<cr>
+"nnoremap <C-m> :tabn<cr>
+"nnoremap <A-n> :tabm -1<cr>
+"nnoremap <A-m> :tabm +1<cr>
 inoremap § <esc>
 vnoremap § <esc>
 
