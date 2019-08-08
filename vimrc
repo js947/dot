@@ -14,7 +14,10 @@ set wildmenu
 set wildignore=*.o,*~,*.pyc,*.aux
 set wildmode=longest,list
 set magic
-set modeline
+"set modeline
+"set laststatus=2
+set nomodeline
+set laststatus=0
 
 set showcmd
 set showmatch
@@ -40,7 +43,6 @@ set title
 set title titlestring=%m%t
 
 set t_Co=256
-set laststatus=2
 
 set undodir=$HOME/.vim-undo
 set undofile
