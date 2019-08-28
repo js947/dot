@@ -62,12 +62,17 @@ Host stampede
   Hostname stampede2.tacc.utexas.edu
 Host zenith-gw
   Hostname 143.166.198.151
-  user js947.cambridge
+  user jeffrey.cambridge
 Host zenith
   ForwardAgent yes
   Hostname zenith
   proxyjump zenith-gw
-  user js947.cambridge
+  user jeffrey.cambridge
+Host zenith-rome
+  ForwardAgent yes
+  Hostname rome
+  proxyjump zenith-gw
+  user jeffery.cambridge
 
 Host isembard-*
   user ri-jsalmond
