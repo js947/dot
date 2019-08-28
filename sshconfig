@@ -99,6 +99,10 @@ Host gitlab
 Host hpc-gitlab
   Hostname gitlab.hpc.cam.ac.uk
   User git
+Host asimov-gitlab
+  Port 2233
+  Hostname gitlab.asimov.cfms.org.uk
+  User git
 Host gist
   Hostname gist.github.com
   User git
