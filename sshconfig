@@ -25,6 +25,10 @@ Host wbic
   ForwardX11 yes
   ForwardAgent yes
   HostName wbic-gate.vss.cloud.private.cam.ac.uk
+Host alaska
+  ForwardAgent yes
+  User jeffrey
+  HostName 10.60.253.22
 
 Host ops-bast
     Hostname ops-bast.hpc.cam.ac.uk
