@@ -82,6 +82,10 @@ Host zenith-rome
   Hostname rome
   proxyjump zenith-gw
   user jeffery.cambridge
+Host asimov
+  ForwardAgent yes
+  hostname login.archer.ac.uk
+  user js947asi
 
 Host isembard-*
   user ri-jsalmond
