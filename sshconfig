@@ -127,3 +127,6 @@ Host bitbucket
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
 
+Host imac
+  Hostname imac-3
+  ProxyJump js947.co.uk
