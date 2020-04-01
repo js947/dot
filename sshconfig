@@ -87,16 +87,16 @@ Host asimov
   hostname login.archer.ac.uk
   user js947asi
 
-Host isembard-*
+Host isambard-*
   user ri-jsalmond
-Host isembard-gw
+Host isambard-gw
   Hostname isambard.gw4.ac.uk
-Host isembard-1
+Host isambard-1
   Hostname login-02
-  ProxyJump isembard-gw
-Host isembard-2
+  ProxyJump isambard-gw
+Host isambard-2
   Hostname xcil01
-  ProxyJump isembard-gw
+  ProxyJump isambard-gw
 
 Host githpc
   Hostname git.hpc.cam.ac.uk
