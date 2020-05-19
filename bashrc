@@ -31,6 +31,3 @@ if [ -f $HOME/.bash_local ]
 then
   source $HOME/.bash_local
 fi
-#export PATH=/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/deps/external/mongodb/bin:/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/deps/anaconda/bin:/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/bin:/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/deps/anaconda/bin:/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/bin:/home/js947/spack/bin:/usr/local/software/slurm/current/sbin:/usr/local/software/slurm/current/bin:/home/js947/.vim-install/bin:/home/js947/.local/bin/:/home/js947/bin:/usr/lib64/qt-3.3/bin:/home/js947/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/opt/dell/srvadmin/bin:/home/js947/.fzf/bin
-# Added by cryoSPARC:
-#export PATH="/rds/user/js947/hpc-work/cryosparc-install/cryosparc2_master/bin":$PATH
