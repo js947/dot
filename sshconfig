@@ -4,10 +4,6 @@ Host *
   ControlPersist 1h
   ServerAliveInterval 60
 
-Host cumulus
-  ForwardX11 yes
-  ForwardAgent yes
-  HostName login-e-15.hpc.cam.ac.uk
 Host peta4
   ForwardX11 yes
   ForwardAgent yes
@@ -16,117 +12,9 @@ Host wilkes2
   ForwardX11 yes
   ForwardAgent yes
   HostName login-e-7.hpc.cam.ac.uk
-Host kara
-  ForwardAgent yes
-  HostName kara.hpc.cam.ac.uk
-Host ilab
-  HostName ilab-gate.vss.cloud.cam.ac.uk
-Host wbic
-  ForwardX11 yes
-  ForwardAgent yes
-  HostName wbic-gate.vss.cloud.private.cam.ac.uk
-Host alaska
-  ForwardAgent yes
-  User jeffrey
-  HostName 10.60.253.22
 
-Host ops-bast
-    Hostname ops-bast.hpc.cam.ac.uk
-    IdentityFile ~/.ssh/id_clusterops
-Host gw0?
-    Hostname %h.mgt.cluster
-    IdentityFile ~/.ssh/id_clusterops
-    proxyjump ops-bast
-
-Host archer
-  ForwardAgent yes
-  Hostname login.archer.ac.uk
-Host dial
-  ForwardAgent yes
-  User dc-salm1
-  Hostname dirac02.rcs.le.ac.uk
-Host tesseract
-  ForwardAgent yes
-  User dc-salm1
-  Hostname tesseract.dirac.ac.uk
-Host cosma
-  ForwardAgent yes
-  User dc-salm1
-  Hostname login7.cosma.dur.ac.uk
-Host cirrus
-  ForwardAgent yes
-  Hostname login.cirrus.ac.uk
-Host shen
-  User salmond
-  Hostname shen.astro.keele.ac.uk
-Host catalyst
-  ForwardAgent yes
-  User dc-salm1
-  Hostname arm-login01.rcs.le.ac.uk
-Host lonestar
-  ForwardAgent yes
-  Hostname ls5.tacc.utexas.edu
-Host stampede
-  ForwardAgent yes
-  Hostname stampede2.tacc.utexas.edu
-Host zenith-gw
-  Hostname 143.166.198.151
-  user jeffrey.cambridge
-Host zenith
-  ForwardAgent yes
-  Hostname zenith
-  proxyjump zenith-gw
-  user jeffrey.cambridge
-Host zenith-rome
-  ForwardAgent yes
-  Hostname rome
-  proxyjump zenith-gw
-  user jeffery.cambridge
-Host asimov
-  ForwardAgent yes
-  hostname login.archer.ac.uk
-  user js947asi
-
-Host isambard-*
-  user ri-jsalmond
-Host isambard-gw
-  Hostname isambard.gw4.ac.uk
-Host isambard-1
-  Hostname login-02
-  ProxyJump isambard-gw
-Host isambard-2
-  Hostname xcil01
-  ProxyJump isambard-gw
-
-Host githpc
-  Hostname git.hpc.cam.ac.uk
-  User git
 Host github
   Hostname github.com
   User git
   StrictHostKeyChecking no
   UserKnownHostsFile /dev/null
-Host gitlab
-  Hostname gitlab.developers.cam.ac.uk
-  User git
-Host hpc-gitlab
-  Hostname gitlab.hpc.cam.ac.uk
-  User git
-Host asimov-gitlab
-  Port 2233
-  Hostname gitlab.asimov.cfms.org.uk
-  User git
-Host gist
-  Hostname gist.github.com
-  User git
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
-Host bitbucket
-  Hostname bitbucket.org
-  User git
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
-
-Host imac
-  Hostname imac-3
-  ProxyJump js947.co.uk
