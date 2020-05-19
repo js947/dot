@@ -3,18 +3,11 @@ Host *
   ControlMaster auto
   ControlPersist 1h
   ServerAliveInterval 60
+  StrictHostKeyChecking accept-new
 
 Host peta4
-  ForwardX11 yes
+  Hostname login-e-15.hpc.cam.ac.uk
   ForwardAgent yes
-  HostName login-e-15.hpc.cam.ac.uk
 Host wilkes2
-  ForwardX11 yes
+  Hostname login-e-7.hpc.cam.ac.uk
   ForwardAgent yes
-  HostName login-e-7.hpc.cam.ac.uk
-
-Host github
-  Hostname github.com
-  User git
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
