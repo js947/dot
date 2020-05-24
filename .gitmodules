@@ -22,3 +22,6 @@
 [submodule "vim/pack/js947/start/bundle/ctrlp"]
 	path = vim/pack/js947/start/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "ohmyzsh"]
+	path = ohmyzsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git

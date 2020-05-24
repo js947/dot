@@ -1,4 +1,4 @@
-export ZSH="/Users/js947/.oh-my-zsh"
+export ZSH="$HOME/dot/ohmyzsh"
 ZSH_THEME="minimal"
 
 plugins=(git fzf osx)
