@@ -1,13 +1,18 @@
 Host *
   ControlPath ~/.ssh/master/%r@%h:%p
   ControlMaster auto
-  ControlPersist 1h
+  ControlPersist 5m
   ServerAliveInterval 60
   StrictHostKeyChecking accept-new
+  IdentityAgent ~/.sekey/ssh-agent.ssh
+
 
 Host peta4
   Hostname login-e-15.hpc.cam.ac.uk
   ForwardAgent yes
 Host wilkes2
   Hostname login-e-7.hpc.cam.ac.uk
+  ForwardAgent yes
+
+Host superserver
   ForwardAgent yes
