@@ -39,3 +39,6 @@ brew "weaveworks/tap/eksctl"
 
 tap "heroku/brew"
 brew "heroku/brew/heroku"
+
+tap "github/gh"
+brew "github/gh/gh"
