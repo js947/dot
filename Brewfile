@@ -28,6 +28,7 @@ brew "wget"
 brew "pyenv"
 
 brew "weaveworks/tap/eksctl"
+cask "google-chrome"
 cask "caffeine"
 cask "whatsapp"
 cask "xquartz"
