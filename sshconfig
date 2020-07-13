@@ -16,3 +16,8 @@ Host wilkes2
 
 Host superserver
   ForwardAgent yes
+
+Host psg
+  User jsalmond
+  Hostname psglogin.nvidia.com
+  ForwardAgent yes
