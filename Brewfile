@@ -25,7 +25,6 @@ brew "parallel"
 brew "pkg-config"
 brew "watch"
 brew "wget"
-brew "pyenv"
 
 brew "weaveworks/tap/eksctl"
 cask "google-chrome"
