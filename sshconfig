@@ -21,3 +21,8 @@ Host psg
   User jsalmond
   Hostname psglogin.nvidia.com
   ForwardAgent yes
+
+Host centaurus
+  Hostname 129.213.25.152
+  User opc
+  Port 22
