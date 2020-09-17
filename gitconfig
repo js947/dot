@@ -17,3 +17,5 @@
   m = merge --no-ff
 [push]
 	default = simple
+[pull]
+	rebase = true
