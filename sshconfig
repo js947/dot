@@ -8,9 +8,11 @@ Host *
 
 
 Host peta4
+  User js947
   Hostname login-e-15.hpc.cam.ac.uk
   ForwardAgent yes
 Host wilkes2
+  User js947
   Hostname login-e-7.hpc.cam.ac.uk
   ForwardAgent yes
 
