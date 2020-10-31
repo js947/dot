@@ -28,3 +28,14 @@ Host centaurus
   Hostname 129.213.25.152
   User opc
   Port 22
+
+Host um6p-seed
+  Hostname 10.16.1.10
+  User jeffrey.salmond
+  ForwardAgent yes
+  IdentityFile ~/.ssh/id_um6p
+Host um6p
+  Hostname 10.43.200.120
+  User centos
+  ProxyJump um6p-seed
+  IdentityFile ~/.ssh/id_um6p
